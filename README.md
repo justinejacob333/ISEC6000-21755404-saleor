@@ -5,6 +5,7 @@ Title: Developing a Secure Task Management Web Application using Django
 Django Project Setup and How to Run:
 
 1. Ensure you have Python, Django and Django-admin installed
+   
   python --version
 
   django --version
@@ -36,7 +37,7 @@ Create task: http://127.0.0.1:8000/create/
 
 Display All Task list: http://127.0.0.1:8000/alltasks/
 
-Display Single task using URL parameters:http://127.0.0.1:8000/task/<int:task_id>/
+Display Single task using URL parameters: http://127.0.0.1:8000/task/<int:task_id>/
 
 Display All Categories: http://127.0.0.1:8000/allcategories/
 
