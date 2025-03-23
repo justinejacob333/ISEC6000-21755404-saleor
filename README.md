@@ -6,10 +6,13 @@ Django Project Setup and How to Run:
 
 1. Ensure you have Python, Django and Django-admin installed
   python --version
+
   django --version
+  
   django-admin --version
 
 2. Created a Django project task_manager
+   
    django-admin startproject task_manager
    
 3. Created a Django app tasks_app
@@ -19,9 +22,10 @@ Django Project Setup and How to Run:
 
    After this you get the localhost link, which can use to check whether server is running 
 
-6. For Migrations
+5. For Migrations
    python manage.py makemigrations
    python manage.py migrate
+
 
 Webpages in the project:
 
