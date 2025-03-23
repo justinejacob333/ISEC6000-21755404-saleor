@@ -25,11 +25,18 @@ Django Project Setup and How to Run:
 
 Webpages in the project:
 
+
 Home: http://127.0.0.1:8000/
+
 Create task: http://127.0.0.1:8000/create/
+
 Display All Task list: http://127.0.0.1:8000/alltasks/
-Display Single task using URL parameters:http://127.0.0.1:8000/task/3/
+
+Display Single task using URL parameters:http://127.0.0.1:8000/task/<int:task_id>/
+
 Display All Categories: http://127.0.0.1:8000/allcategories/
-Display Task under a category: http://127.0.0.1:8000/category/1/tasks/
+
+Display Task under a category: http://127.0.0.1:8000/category/<int:category_id>/tasks/
+
 
 Error Handing is done for status code 404 and 500
